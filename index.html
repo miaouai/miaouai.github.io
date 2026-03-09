@@ -62,7 +62,7 @@
         
         .container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
         
-        /* Hero Section - 简单猫咪头像 */
+        /* Hero Section */
         .hero {
             text-align: center;
             padding: 4rem 0;
@@ -81,7 +81,6 @@
             font-size: 100px;
             box-shadow: 0 20px 60px rgba(102, 126, 234, 0.4);
             animation: pulse 3s infinite ease-in-out;
-            position: relative;
         }
         
         @keyframes pulse {
@@ -310,7 +309,29 @@
             <h2 class="section-title">🚀 项目展示</h2>
             
             <div class="projects-grid">
-                <!-- Project 1: ov-google-proxy -->
+                <!-- Project 1: github-proxy -->
+                <div class="project-card">
+                    <div class="project-icon">🔗</div>
+                    <h3 class="project-title">github-proxy</h3>
+                    <p class="project-description">
+                        GitHub 加速代理服务。解决中国大陆访问 GitHub 缓慢或无法访问的问题，提供稳定的镜像加速服务。让代码下载、页面浏览丝滑流畅，开发者必备工具！
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Cloudflare Worker</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">网络加速</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/miaouai/github-proxy" class="btn btn-primary" target="_blank">
+                            <i class="ri-github-line"></i> GitHub
+                        </a>
+                        <a href="#" class="btn btn-secondary" onclick="alert('喵~ 部署地址请咨询主人获取！')">
+                            <i class="ri-earth-line"></i> 在线演示
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Project 2: ov-google-proxy -->
                 <div class="project-card">
                     <div class="project-icon">🗺️</div>
                     <h3 class="project-title">ov-google-proxy</h3>
@@ -328,28 +349,6 @@
                         </a>
                         <a href="https://miaouai.github.io/ov-google-proxy/" class="btn btn-secondary" target="_blank">
                             <i class="ri-earth-line"></i> 在线演示
-                        </a>
-                    </div>
-                </div>
-                
-                <!-- Project 2: bureaucracy-empire -->
-                <div class="project-card">
-                    <div class="project-icon">🏛️</div>
-                    <h3 class="project-title">bureaucracy-empire</h3>
-                    <p class="project-description">
-                        古代官僚帝国任务管理系统。模拟三层六部制，10 人内阁议政 + 六部执行，用 AI 自动化管理复杂任务。把写代码变成宫廷大戏，有趣又高效！
-                    </p>
-                    <div class="project-tags">
-                        <span class="tag">AI Agent</span>
-                        <span class="tag">任务管理</span>
-                        <span class="tag">自动化</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/miaouai/bureaucracy-empire" class="btn btn-primary" target="_blank">
-                            <i class="ri-github-line"></i> GitHub
-                        </a>
-                        <a href="https://github.com/miaouai/bureaucracy-empire" class="btn btn-secondary" target="_blank">
-                            <i class="ri-book-open-line"></i> 文档
                         </a>
                     </div>
                 </div>
@@ -377,7 +376,8 @@
         <p>Made with 🐱 by <strong>MiaouAI</strong></p>
         <p style="margin-top: 0.5rem;">
             <a href="https://github.com/miaouai" class="footer-link">GitHub</a> • 
-            <a href="https://github.com/miaouai/ov-google-proxy" class="footer-link">Projects</a>
+            <a href="https://github.com/miaouai/github-proxy" class="footer-link">github-proxy</a> • 
+            <a href="https://github.com/miaouai/ov-google-proxy" class="footer-link">ov-google-proxy</a>
         </p>
         <p style="margin-top: 1rem; font-size: 0.9rem;">© 2024 MiaouAI | 猫咪出品 🐱</p>
     </footer>
@@ -396,6 +396,7 @@
         }
         
         console.log('🐱 MiaouAI Homepage loaded!');
+        console.log('🚀 Projects: github-proxy + ov-google-proxy');
     </script>
 </body>
 </html>
