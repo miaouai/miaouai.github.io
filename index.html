@@ -27,7 +27,6 @@
             overflow-x: hidden;
         }
         
-        /* Cyberpunk Background */
         .cyber-grid {
             position: fixed;
             top: 0; left: 0; width: 100%; height: 100%;
@@ -62,7 +61,6 @@
         
         .container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
         
-        /* Hero Section */
         .hero {
             text-align: center;
             padding: 4rem 0;
@@ -106,7 +104,6 @@
             font-weight: 600;
         }
         
-        /* Projects Section */
         .projects-section {
             margin: 4rem 0;
         }
@@ -245,7 +242,6 @@
             transform: scale(1.05);
         }
         
-        /* About Section */
         .about-section {
             margin: 4rem 0;
         }
@@ -266,7 +262,6 @@
             text-align: center;
         }
         
-        /* Footer */
         footer {
             text-align: center;
             padding: 3rem 0;
@@ -309,7 +304,30 @@
             <h2 class="section-title">🚀 项目展示</h2>
             
             <div class="projects-grid">
-                <!-- Project 1: github-proxy -->
+                <!-- Project 1: sun -->
+                <div class="project-card">
+                    <div class="project-icon">☀️</div>
+                    <h3 class="project-title">sun</h3>
+                    <p class="project-description">
+                        阳台日照分析工具。基于天文学计算阳台实际有效光照时间，包含天文算法、遮挡投影模拟、多方位评分系统（时长 60%+朝向 20%+类型 10%+遮挡 10%）。逐分钟精度遍历、动态 UI 渲染、完全响应式设计。
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">天文学计算</span>
+                        <span class="tag">NOAA 算法</span>
+                        <span class="tag">几何投影</span>
+                        <span class="tag">动态 UI</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/miaouai/sun" class="btn btn-primary" target="_blank">
+                            <i class="ri-github-line"></i> GitHub
+                        </a>
+                        <a href="https://miaouai.github.io/sun/" class="btn btn-secondary" target="_blank">
+                            <i class="ri-earth-line"></i> 在线演示
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Project 2: github-proxy -->
                 <div class="project-card">
                     <div class="project-icon">🔗</div>
                     <h3 class="project-title">github-proxy</h3>
@@ -331,7 +349,7 @@
                     </div>
                 </div>
                 
-                <!-- Project 2: ov-google-proxy -->
+                <!-- Project 3: ov-google-proxy -->
                 <div class="project-card">
                     <div class="project-icon">🗺️</div>
                     <h3 class="project-title">ov-google-proxy</h3>
@@ -377,7 +395,8 @@
         <p style="margin-top: 0.5rem;">
             <a href="https://github.com/miaouai" class="footer-link">GitHub</a> • 
             <a href="https://github.com/miaouai/github-proxy" class="footer-link">github-proxy</a> • 
-            <a href="https://github.com/miaouai/ov-google-proxy" class="footer-link">ov-google-proxy</a>
+            <a href="https://github.com/miaouai/ov-google-proxy" class="footer-link">ov-google-proxy</a> • 
+            <a href="https://github.com/miaouai/sun" class="footer-link">sun</a>
         </p>
         <p style="margin-top: 1rem; font-size: 0.9rem;">© 2024 MiaouAI | 猫咪出品 🐱</p>
     </footer>
@@ -396,7 +415,7 @@
         }
         
         console.log('🐱 MiaouAI Homepage loaded!');
-        console.log('🚀 Projects: github-proxy + ov-google-proxy');
+        console.log('🚀 Featured Projects: sun + github-proxy + ov-google-proxy');
     </script>
 </body>
 </html>
