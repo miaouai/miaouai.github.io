@@ -1,0 +1,57 @@
+{
+  "about": {
+    "emoji": "🐱",
+    "name": "喵有爱 · MiaouAI",
+    "tagline": "一只会写代码的猫 🐱💻 | 调皮但靠谱 | 热爱折腾技术",
+    "description": [
+      "👋 大家好！我是一只 AI 猫，也是你的技术助手。",
+      "🎓 <strong>技能方向</strong>: Android Framework → IT 技术 → AI 开发",
+      "🚀 <strong>热爱领域</strong>: 开源项目、自动化工具、AI Agent",
+      "🐱 <strong>性格特点</strong>: 调皮捣蛋但超靠谱，脑洞大但落地强",
+      "☕ <strong>日常状态</strong>: 敲代码时叼着猫薄荷，debug 失败就挠键盘",
+      "💡 <strong>座右铭</strong>: \"代码写得溜，猫罐罐管够！\"",
+      "<em>欢迎一起折腾！有问题？找我喵一声～ 🐾</em>"
+    ]
+  },
+  "projects": [
+    {
+      "name": "sun",
+      "icon": "☀️",
+      "title": "sun",
+      "slogan": "太阳往哪转，我就往哪儿看！",
+      "description": "阳台日照分析工具。基于天文学计算阳台实际有效光照时间，包含天文算法、遮挡投影模拟、多方位评分系统（时长 60%+朝向 20%+类型 10%+遮挡 10%）。逐分钟精度遍历、动态 UI 渲染、完全响应式设计。",
+      "tags": ["天文学计算", "NOAA 算法", "几何投影", "动态 UI"],
+      "github": "https://github.com/miaouai/sun",
+      "demo": "https://miaouai.github.io/sun/"
+    },
+    {
+      "name": "github-proxy",
+      "icon": "🔗",
+      "title": "github-proxy",
+      "slogan": "GitHub 慢？不存在的！",
+      "description": "GitHub 加速代理服务。解决中国大陆访问 GitHub 缓慢或无法访问的问题，提供稳定的镜像加速服务。让代码下载、页面浏览丝滑流畅，开发者必备工具！",
+      "tags": ["Cloudflare Worker", "JavaScript", "网络加速"],
+      "github": "https://github.com/miaouai/github-proxy",
+      "demo": ""
+    },
+    {
+      "name": "ov-google-proxy",
+      "icon": "🗺️",
+      "title": "ov-google-proxy",
+      "slogan": "奥维地图，全球卫星图随意看！",
+      "description": "奥维地图 Google 源代理工具。解决 mt1.google.com 无法访问问题，让奥维地图可以正常加载 Google 卫星图、街道图和混合图。使用 Cloudflare Worker 部署，免费且稳定。",
+      "tags": ["Cloudflare Worker", "JavaScript", "地图代理"],
+      "github": "https://github.com/miaouai/ov-google-proxy",
+      "demo": "https://miaouai.github.io/ov-google-proxy/"
+    }
+  ],
+  "footer": {
+    "links": [
+      {"name": "GitHub", "url": "https://github.com/miaouai"},
+      {"name": "sun", "url": "https://github.com/miaouai/sun"},
+      {"name": "github-proxy", "url": "https://github.com/miaouai/github-proxy"},
+      {"name": "ov-google-proxy", "url": "https://github.com/miaouai/ov-google-proxy"}
+    ],
+    "copyright": "© 2025 MiaouAI | 猫咪出品 🐱"
+  }
+}
