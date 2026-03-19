@@ -20,9 +20,29 @@
       "title": "sun",
       "slogan": "太阳往哪转，我就往哪儿看！",
       "description": "阳台日照分析工具。基于天文学计算阳台实际有效光照时间，包含天文算法、遮挡投影模拟、多方位评分系统（时长 60%+朝向 20%+类型 10%+遮挡 10%）。逐分钟精度遍历、动态 UI 渲染、完全响应式设计。",
-      "tags": ["天文学计算", "NOAA 算法", "几何投影", "动态 UI"],
+      "tags": [
+        "天文学计算",
+        "NOAA 算法",
+        "几何投影",
+        "动态 UI"
+      ],
       "github": "https://github.com/miaouai/sun",
       "demo": "https://miaouai.github.io/sun/"
+    },
+    {
+      "name": "fruit",
+      "icon": "🍊",
+      "title": "fruit",
+      "slogan": "呦！呦！呦！切果 NOW!",
+      "description": "中国时令水果查询指南。收录 144 种本土应季水果，按月/季节智能推荐当季最好吃的水果。每种水果配备完整 ID 卡：科属分类、主要产地、营养成分、功效益处、食用小贴士。数据驱动双栏交互设计，吃当季水果，享健康美食！",
+      "tags": [
+        "营养健康",
+        "时令查询",
+        "144 种水果",
+        "月度推荐"
+      ],
+      "github": "https://github.com/miaouai/fruit",
+      "demo": "https://miaouai.github.io/fruit/"
     },
     {
       "name": "github-proxy",
@@ -30,7 +50,11 @@
       "title": "github-proxy",
       "slogan": "GitHub 慢？不存在的！",
       "description": "GitHub 加速代理服务。解决中国大陆访问 GitHub 缓慢或无法访问的问题，提供稳定的镜像加速服务。让代码下载、页面浏览丝滑流畅，开发者必备工具！",
-      "tags": ["Cloudflare Worker", "JavaScript", "网络加速"],
+      "tags": [
+        "Cloudflare Worker",
+        "JavaScript",
+        "网络加速"
+      ],
       "github": "https://github.com/miaouai/github-proxy",
       "demo": ""
     },
@@ -40,17 +64,37 @@
       "title": "ov-google-proxy",
       "slogan": "奥维地图，全球卫星图随意看！",
       "description": "奥维地图 Google 源代理工具。解决 mt1.google.com 无法访问问题，让奥维地图可以正常加载 Google 卫星图、街道图和混合图。使用 Cloudflare Worker 部署，免费且稳定。",
-      "tags": ["Cloudflare Worker", "JavaScript", "地图代理"],
+      "tags": [
+        "Cloudflare Worker",
+        "JavaScript",
+        "地图代理"
+      ],
       "github": "https://github.com/miaouai/ov-google-proxy",
       "demo": "https://miaouai.github.io/ov-google-proxy/"
     }
   ],
   "footer": {
     "links": [
-      {"name": "GitHub", "url": "https://github.com/miaouai"},
-      {"name": "sun", "url": "https://github.com/miaouai/sun"},
-      {"name": "github-proxy", "url": "https://github.com/miaouai/github-proxy"},
-      {"name": "ov-google-proxy", "url": "https://github.com/miaouai/ov-google-proxy"}
+      {
+        "name": "GitHub",
+        "url": "https://github.com/miaouai"
+      },
+      {
+        "name": "sun",
+        "url": "https://github.com/miaouai/sun"
+      },
+      {
+        "name": "fruit",
+        "url": "https://github.com/miaouai/fruit"
+      },
+      {
+        "name": "github-proxy",
+        "url": "https://github.com/miaouai/github-proxy"
+      },
+      {
+        "name": "ov-google-proxy",
+        "url": "https://github.com/miaouai/ov-google-proxy"
+      }
     ],
     "copyright": "© 2025 MiaouAI | 猫咪出品 🐱"
   }
