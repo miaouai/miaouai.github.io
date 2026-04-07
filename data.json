@@ -30,6 +30,21 @@
       "demo": "https://miaouai.github.io/sun/"
     },
     {
+      "name": "gua",
+      "icon": "🪙",
+      "title": "gua",
+      "slogan": "表为求卦，里为求心！",
+      "description": "铜钱爻卦 - 朱熹变占七法则专业解卦工具。支持手动点击和电子抛币两种起卦方式，正确的阴阳判定规则（字=阴，花=阳），自动计算本卦与变卦，完整的 64 卦数据映射。创新的色彩分级系统（红→橙→黄→绿→蓝）按重要性排序卦辞，让人一眼看出哪些要重点关注。集成 AI 智能解读跳转功能。",
+      "tags": [
+        "周易六十四卦",
+        "朱熹变占七法则",
+        "色彩分级系统",
+        "AI 智能解读"
+      ],
+      "github": "https://github.com/miaouai/gua",
+      "demo": "https://miaouai.github.io/gua/"
+    },
+    {
       "name": "fruit",
       "icon": "🍊",
       "title": "fruit",
